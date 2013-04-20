@@ -96,7 +96,7 @@ I was thinking of using backbone, however I was not doing anything that would wa
 Its a very well established web application framework although it is lightweight it has alot  of support baked in, and extending it on the chance that it did not do what I needed would not be difficult.
 
 #####Sequelize
-This is an ORM framework that makes working with databases very easy and efficient, this made defining a setup process for the database very easy and access to data quick.
+This is an ORM framework that makes working with databases very easy and efficient, this made defining a setup process for the database very easy.
 
 
 Approach
