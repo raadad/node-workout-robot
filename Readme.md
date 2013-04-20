@@ -2,20 +2,22 @@ Node-workout-robot
 =========================
 
 This web application will help you keep fit on your lunch-break by designing and running a workout for your to perform.
+You are able to configure how long you want your workout to go for, and how intense you want it to be.
 
+Once your ready, click start workout, and quickly follow the instructions marked in blue, make sure you pace yourself as even a 10 minute workout can be difficult.
 
 Note:
 -----
 Other than the libraries I used, the only code I did not write was the CSS - CSS styling is very time consuming and depending on what your doing, you can spend 3 hours trying to got even a small part of an application to look right.
-In-spite of all the RAD software \ languages and libraries I used - this application still took me 12 hours to build.
+In-spite of all the RAD software \ languages and libraries I used - this application still took me appx 12 hours to build.
 
 
 Running
 -------------
-This application was developed inside  a Vagranted Environment, so will require Vagrant to be installed for the following commands to work
+This application was developed inside  a Vagranted Environment, so it will require Vagrant to be installed for the following commands to work
 http://www.vagrantup.com/ has information on how to install vagrant
 
-######Firstly
+######To Begin
 	unzip the project and cd into the project directory
 ######Execute:
 	vagrant box add precise64 http://files.vagrantup.com/precise64.box
@@ -40,19 +42,19 @@ Running Testcases
 
 Notable Files and Folders
 -------------
-*	__entry.js__ - application entry point, takes to arguments, init (populates the database) and start (runs the application)
+*	__entry.js__ - Application entry point, takes to arguments, init (populates the database) and start (runs the application)
 
-*	__package.json__ - details information about the project, and lists dependand node.js libraries
+*	__package.json__ - Details information about the project, and lists dependand node.js libraries
 
-*	__public__ - were all static content is located
+*	__public__ - Where all static content is located
 
-*	__public/app.coffee__ - code that runs the web client 
+*	__public/app.coffee__ - Code that runs the web client 
 
-*	__public/spec/ApplicationSpec.coffee__  - contains the web clients test cases
+*	__public/spec/ApplicationSpec.coffee__  - Contains the web clients test cases
 
-*	__views/index.jade__ - this gets processed into HTML and  served to the client
+*	__views/index.jade__ - This gets processed into HTML and  served to the client
 
-*	__srv/salt/node.sls__ - specifies what needs to be installed and run inside the guest vm
+*	__srv/salt/node.sls__ - Specifies what needs to be installed and run inside the guest vm
 
 
 
@@ -63,13 +65,13 @@ This is were I justify my technology choices, however I will try and avoid reaso
 
 ### Languages
 #####Coffee-script:
-Coffee-script makes it easy to embedded HTML and interpolate variables without a template engine inside a script, see #Client Side Rendering Without Template Engine As for the test cases they were written in coffee script as they are much easier to read than javascript test cases
+Coffee-script is used client side and for tests, it was chosen mainly because it makes it easy to embedded HTML and interpolate variables without a template engine inside a script,As for the test cases they were written in coffee script as they are much easier to read than javascript test cases
 
 #####Javascript:
-Node.js is a javascript runtime, see #Node.JS for more information
+Javascript is the language that runs inside Node.js so it was mostly influenced by the want for Node.js
 
 #####Jade:
-Jade acts as a alternative syntax for html with a little extra features, this was used to allow rapid prototyping of the UI
+Jade is used to compose the root wepage, it was chose as it acts as a alternative syntax for html with a little extra features, this was used to allow rapid prototyping of the UI
 
 ###Software
 #####Mysql:
