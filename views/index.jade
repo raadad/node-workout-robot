@@ -1,0 +1,53 @@
+html
+    head
+        meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        title Workout Robot
+        script(type="text/javascript",src="js/jquery.js")
+        script(type="text/javascript" ,src="js/jquery-ui.js")        
+        script(type="text/javascript" ,src="js/underscore.js") 
+        script(type="text/javascript" ,src="js/coffee-script.js")        
+
+        script(type="text/coffeescript" ,src="app.coffee")
+
+
+        link(rel='stylesheet', href='css/style.css', type='text/css')
+    body
+        .header.radius3
+          .headerinner
+            a(href='')
+              img(src='images/starlight_admin_template_logo_small.png', alt='')
+        .mainwrapper
+          .mainwrapperinner
+              .maincontentinner
+                .content
+                    #application.contenttitle
+                        h2#default.form
+                          span Configuration
+
+                    form.stdform.stdform2(method='post', action='')
+                        .par
+                            label Intensity
+                            .field
+                                #intenSlider
+                                span#intenDisp Medium                               
+                                
+
+                        .par
+                            label Time            
+                            .field
+                                #timeSlider
+                                span#timeDisp 10 Minutes 
+                    br
+                    
+                    #workoutOutline
+
+                    #workoutWidget
+
+              .footer
+                p
+                  | Created By Raadad Elsleiman for Learnosity
+                  
+                p 
+                    | Theme by 
+                    a(href='') ThemePixels.com

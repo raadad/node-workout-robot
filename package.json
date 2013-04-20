@@ -1,0 +1,32 @@
+{
+  "author": "Raadad Elsleiman <raadad@gmail.com> (elsleiman.com)",
+  "name": "node-workout-bot",
+  "description": "html web application to assist in working out",
+  "version": "0.0.1",
+  "homepage": "elsleiman.com",
+  "repository": {
+    "type": "git",
+    "url": "a"
+  },
+  "main": "entry.js",
+  "scripts": {
+    "test": "nodeunit"
+  },
+  "dependencies": {
+    "express":"*",
+    "sequelize":"*",
+    "jade":"*",
+    "mysql":"*"
+     
+    },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
+
+
+
+
+      
