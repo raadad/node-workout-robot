@@ -13,7 +13,7 @@
     "test": "nodeunit"
   },
   "dependencies": {
-    "express":"*",
+    "express":"2.5.11",
     "sequelize":"*",
     "jade":"*",
     "mysql":"*"
