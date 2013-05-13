@@ -30,11 +30,11 @@ describe "Model Generation Tests" , ->
 			console.log error
 
 describe "Model Calculation Tests" , ->
-	it "It Can Convert Minutes to Seconds" , ->
+	it "Can Convert Minutes to Seconds" , ->
 		#10 minutes should be 600 seconds
 		model = _test.generateModel(10,3)
 		expect(model.originalTime).toEqual(600)
-	it "It Calculates Proper Set Length" , ->
+	it "Calculates Proper Set Length" , ->
 		# A ten minute session and high intensity (value 2)
 		# Should create 150 minute sets
 		model = _test.generateModel(10,2)
