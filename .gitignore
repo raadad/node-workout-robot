@@ -4,3 +4,5 @@ build
 app.js
 #template
 .swp
+.vagrant*
+.vagrant*/*

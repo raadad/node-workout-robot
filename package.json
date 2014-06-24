@@ -3,7 +3,7 @@
   "name": "node-workout-bot",
   "description": "html web application to assist in working out",
   "version": "0.0.1",
-  "homepage": "elsleiman.com",
+  "homepage": "http://elsleiman.com",
   "repository": {
     "type": "git",
     "url": "a"
@@ -16,8 +16,8 @@
     "express":"3.1.2",
     "sequelize":"v1.6.0",
     "jade":"0.27.4",
-    "mysql":"*"
-     
+    "mysql":"2.3.2"
+
     },
   "devDependencies": {},
   "optionalDependencies": {},
@@ -25,9 +25,3 @@
     "node": "*"
   }
 }
-
-
-
-
-      
-
